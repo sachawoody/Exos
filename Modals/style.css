@@ -1,0 +1,109 @@
+element {
+    --bgColorModal: #656565;
+    --bgColorNormal: white;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.cookieModal {
+    position: absolute;
+    margin: auto;
+    margin-top: 250px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    left: 30%;
+    flex-direction: row;
+    background-image: url("./img/cookie-modal/cookie_back.jpg");
+    background-size: cover;
+}
+
+.cookieModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    
+    background-color: white;
+    margin-top: auto;
+}
+
+.cookieModal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    gap: 15px;
+}
+
+.newsModal {   
+    position: absolute; 
+    margin: auto;
+    margin-top: 100px;
+    width: 900px;
+    height: 800px;
+    display: flex;
+    left: 25%;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./img/newsletter-modal/mail_boxes.jpg");
+    background-size: cover;
+}
+
+.exitCookie {
+    align-self: flex-end;
+    width: 50px;
+}
+
+.exitNews {
+    align-self: flex-end;
+    width: 50px;
+}
+
+
+.newsModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-color: white;
+    margin-top: auto;
+}
+
+.newsModal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mailInput {
+    border-radius: 5px;
+}
+
+.validateNews {
+    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom:0;
+    left: 93%;
+}
+
+footer img {
+    width: 64px;
+}
+
+ul {
+    list-style-type: none;
+}
