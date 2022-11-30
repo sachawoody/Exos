@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: serif;
+    overflow: hidden;
+}
+
+hr {
+    z-index: -1;
+    font-size: 10px;
+    background-color: white;
+    width: 45px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav {
+    color: white;
+    font-size: 150px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: -35%;
+}
+
+
+nav:hover > a {
+    opacity: 0.3;
+}
+
+nav:hover > a:hover {
+    opacity: 1;
+}
+
